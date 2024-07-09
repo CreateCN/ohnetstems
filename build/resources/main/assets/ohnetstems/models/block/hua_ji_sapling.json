@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "ohnetstems:block/sapling_funny_fruit",
-    "particle": "ohnetstems:block/sapling_funny_fruit"
-  },
-  "render_type": "cutout"
-}
