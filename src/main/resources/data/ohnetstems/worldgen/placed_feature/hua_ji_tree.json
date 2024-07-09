@@ -1,0 +1,12 @@
+{
+  "feature": "ohnetstems:hua_ji_tree",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 5
+    },
+    {
+      "type": "minecraft:in_square"
+    }
+  ]
+}

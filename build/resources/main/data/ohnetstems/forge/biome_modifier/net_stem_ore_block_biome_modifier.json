@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "ocean",
+  "features": "ohnetstems:net_stem_ore_block",
+  "step": "underground_ores"
+}

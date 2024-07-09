@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ohnetstems:emerald_pickaxe"
+    },
+    {
+      "item": "ohnetstems:shi_li"
+    }
+  ],
+  "result": {
+    "item": "ohnetstems:shen_gao",
+    "count": 1
+  }
+}

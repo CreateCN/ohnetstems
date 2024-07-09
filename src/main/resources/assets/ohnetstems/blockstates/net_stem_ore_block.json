@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "ohnetstems:block/net_stem_ore_block"
+    }
+  }
+}

@@ -1,0 +1,422 @@
+{
+  "mod_elements": [
+    {
+      "name": "NetStemGem",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "net_stem_gem",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/createcn/ohnetstems/item/NetStemGemItem.java",
+          "src/main/resources/assets/ohnetstems/models/item/net_stem_gem.json"
+        ]
+      }
+    },
+    {
+      "name": "HuaJi",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hua_ji",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ohnetstems/models/item/hua_ji.json",
+          "src/main/java/io/github/createcn/ohnetstems/item/HuaJiItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NetStemOre",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "net_stem_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ohnetstems/models/item/net_stem_ore.json",
+          "src/main/resources/data/ohnetstems/forge/biome_modifier/net_stem_ore_biome_modifier.json",
+          "src/main/resources/assets/ohnetstems/models/block/net_stem_ore.json",
+          "src/main/resources/data/ohnetstems/worldgen/configured_feature/net_stem_ore.json",
+          "src/main/java/io/github/createcn/ohnetstems/block/NetStemOreBlock.java",
+          "src/main/resources/assets/ohnetstems/blockstates/net_stem_ore.json",
+          "src/main/resources/data/ohnetstems/worldgen/placed_feature/net_stem_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "NetStemOrezhucebiao",
+      "type": "loottable",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "net_stem_orezhucebiao",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ohnetstems/loot_tables/blocks/net_stem_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "HuaJiLog",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hua_ji_log",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/createcn/ohnetstems/block/HuaJiLogBlock.java",
+          "src/main/resources/assets/ohnetstems/blockstates/hua_ji_log.json",
+          "src/main/resources/assets/ohnetstems/models/block/hua_ji_log.json",
+          "src/main/resources/assets/ohnetstems/models/item/hua_ji_log.json"
+        ]
+      }
+    },
+    {
+      "name": "HuaJiLogzhanlipingbiao",
+      "type": "loottable",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hua_ji_logzhanlipingbiao",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ohnetstems/loot_tables/blocks/hua_ji_log.json"
+        ]
+      }
+    },
+    {
+      "name": "HuaJiSapling",
+      "type": "plant",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hua_ji_sapling",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ohnetstems/models/block/hua_ji_sapling.json",
+          "src/main/resources/assets/ohnetstems/blockstates/hua_ji_sapling.json",
+          "src/main/resources/data/ohnetstems/loot_tables/blocks/hua_ji_sapling.json",
+          "src/main/java/io/github/createcn/ohnetstems/block/HuaJiSaplingBlock.java",
+          "src/main/resources/assets/ohnetstems/models/item/hua_ji_sapling.json"
+        ]
+      }
+    },
+    {
+      "name": "OhNetStems",
+      "type": "tab",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oh_net_stems",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "HuaJiSaplingDangGuFenChengGongShiYongShi",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hua_ji_sapling_dang_gu_fen_cheng_gong_shi_yong_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/createcn/ohnetstems/procedures/HuaJiSaplingDangGuFenChengGongShiYongShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HuaJiSaplingGuFenShiYongChengGongDeTiaoJian",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hua_ji_sapling_gu_fen_shi_yong_cheng_gong_de_tiao_jian",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/io/github/createcn/ohnetstems/procedures/HuaJiSaplingGuFenShiYongChengGongDeTiaoJianProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "HuaJiLevel",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hua_ji_level",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ohnetstems/blockstates/hua_ji_level.json",
+          "src/main/resources/assets/ohnetstems/models/block/hua_ji_level.json",
+          "src/main/java/io/github/createcn/ohnetstems/block/HuaJiLevelBlock.java",
+          "src/main/resources/assets/ohnetstems/models/item/hua_ji_level.json"
+        ]
+      }
+    },
+    {
+      "name": "HuaJiLevelzhanlipinbiao",
+      "type": "loottable",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hua_ji_levelzhanlipinbiao",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ohnetstems/loot_tables/blocks/hua_ji_level.json"
+        ]
+      }
+    },
+    {
+      "name": "ZiMin",
+      "type": "livingentity",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zi_min",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/createcn/ohnetstems/client/renderer/ZiMinRenderer.java",
+          "src/main/resources/assets/ohnetstems/models/item/zi_min_spawn_egg.json",
+          "src/main/java/io/github/createcn/ohnetstems/entity/ZiMinEntity.java",
+          "src/main/resources/data/ohnetstems/forge/biome_modifier/zi_min_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "ShiLi",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shi_li",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/createcn/ohnetstems/item/ShiLiItem.java",
+          "src/main/resources/assets/ohnetstems/models/item/shi_li.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldPickaxe",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/createcn/ohnetstems/item/EmeraldPickaxeItem.java",
+          "src/main/resources/assets/ohnetstems/models/item/emerald_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldPickaxePeifang",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_pickaxe_peifang",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ohnetstems/recipes/emerald_pickaxe_peifang.json"
+        ]
+      }
+    },
+    {
+      "name": "ShenGao",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shen_gao",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/createcn/ohnetstems/item/ShenGaoItem.java",
+          "src/main/resources/assets/ohnetstems/models/item/shen_gao.json"
+        ]
+      }
+    },
+    {
+      "name": "ShenGaoPeifang",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shen_gao_peifang",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ohnetstems/recipes/shen_gao_peifang.json"
+        ]
+      }
+    },
+    {
+      "name": "ShenGaoFangKuaiBeiGongJuPoPiShi",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shen_gao_fang_kuai_bei_gong_ju_po_pi_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/createcn/ohnetstems/procedures/ShenGaoFangKuaiBeiGongJuPoPiShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HuaJiTree",
+      "type": "feature",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hua_ji_tree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ohnetstems/forge/biome_modifier/hua_ji_tree_biome_modifier.json",
+          "src/main/resources/data/ohnetstems/worldgen/placed_feature/hua_ji_tree.json",
+          "src/main/resources/data/ohnetstems/worldgen/configured_feature/hua_ji_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "KaoMianJing",
+      "type": "musicdisc",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kao_mian_jin",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ohnetstems/models/item/kao_mian_jin.json",
+          "src/main/java/io/github/createcn/ohnetstems/item/KaoMianJingItem.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "ohnetstems.taididile",
+      "files": [
+        "x-jian_ji_-20210726173951-zhuan_huan_-20210726174001"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "ohnetstems.wowowo",
+      "files": [
+        "20210710_174936-jian_ji_-20210710175327-zhuan_huan_-20210710175404"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "ohnetstems.wodeshengao",
+      "files": [
+        "d"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "ohnetstems.kaomianjing",
+      "files": [
+        "1.kao_mian_jin__yuan_ban_av21696221p1-zhuan_huan_-20210830143610"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:KaoMianJing"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "subtitles.ohnetstems.kaomianjing": "",
+      "item_group.ohnetstems.oh_net_stems": "Oh Net Stems",
+      "entity.ohnetstems.zi_min": "Zi Min",
+      "item.ohnetstems.kao_mian_jin.desc": "烤面筋！！",
+      "item.ohnetstems.net_stem_gem": "Net Stem Gem",
+      "item.ohnetstems.kao_mian_jin": "Kao Mian Jin",
+      "item.ohnetstems.zi_min_spawn_egg": "Zi Min Spawn Egg",
+      "item.ohnetstems.hua_ji": "Hua Ji",
+      "item.ohnetstems.emerald_pickaxe": "Emerald Pickaxe",
+      "subtitles.ohnetstems.taididile": "",
+      "item.ohnetstems.shen_gao": "Emerald Pickaxe",
+      "subtitles.ohnetstems.wodeshengao": "",
+      "block.ohnetstems.hua_ji_level": "Hua Ji Level",
+      "subtitles.ohnetstems.wowowo": "",
+      "block.ohnetstems.net_stem_ore": "Net Stem Ore",
+      "block.ohnetstems.hua_ji_sapling": "Hua Ji Sapling",
+      "item.ohnetstems.shi_li": "Shi Li",
+      "block.ohnetstems.hua_ji_log": "Hua Ji Log"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "ohnetstems",
+    "modName": "Oh!NetStems",
+    "version": "1.0.0",
+    "author": "18360, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "io.github.createcn.ohnetstems"
+  },
+  "mcreatorVersion": 202400118518
+}

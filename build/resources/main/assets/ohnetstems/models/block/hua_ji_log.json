@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ohnetstems:block/log_funny_fruit_top",
+    "up": "ohnetstems:block/log_funny_fruit_top",
+    "north": "ohnetstems:block/log_funny_fruit",
+    "east": "ohnetstems:block/log_funny_fruit",
+    "south": "ohnetstems:block/log_funny_fruit",
+    "west": "ohnetstems:block/log_funny_fruit",
+    "particle": "ohnetstems:block/log_funny_fruit_top"
+  },
+  "render_type": "solid"
+}

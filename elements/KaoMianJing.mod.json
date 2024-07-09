@@ -1,0 +1,24 @@
+{
+  "_fv": 60,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Kao Mian Jin",
+    "rarity": "EPIC",
+    "texture": "mixuebingcheng",
+    "description": "烤面筋！！",
+    "creativeTab": {
+      "value": "CUSTOM:OhNetStems"
+    },
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "music": {
+      "value": "CUSTOM:ohnetstems.kaomianjing"
+    },
+    "lengthInTicks": 860,
+    "analogOutput": 0
+  }
+}
