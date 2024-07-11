@@ -30,5 +30,13 @@
         "stream": true
       }
     ]
+  },
+  "mixuetheme": {
+    "sounds": [
+      {
+        "name": "ohnetstems:mixuebingcheng",
+        "stream": true
+      }
+    ]
   }
 }

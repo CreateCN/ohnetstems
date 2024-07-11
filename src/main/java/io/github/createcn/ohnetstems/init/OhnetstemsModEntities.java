@@ -17,6 +17,8 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import io.github.createcn.ohnetstems.entity.ZiMinEntity;
+import io.github.createcn.ohnetstems.entity.XueWangEntityProjectile;
+import io.github.createcn.ohnetstems.entity.XueWangEntity;
 import io.github.createcn.ohnetstems.OhnetstemsMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -26,6 +28,12 @@ public class OhnetstemsModEntities {
 			EntityType.Builder.<ZiMinEntity>of(ZiMinEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ZiMinEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<XueWangEntity>> XUE_WANG = register("xue_wang",
+			EntityType.Builder.<XueWangEntity>of(XueWangEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(XueWangEntity::new)
+
+					.sized(1f, 1f));
+	public static final RegistryObject<EntityType<XueWangEntityProjectile>> XUE_WANG_PROJECTILE = register("projectile_xue_wang", EntityType.Builder.<XueWangEntityProjectile>of(XueWangEntityProjectile::new, MobCategory.MISC)
+			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(XueWangEntityProjectile::new).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -35,11 +43,13 @@ public class OhnetstemsModEntities {
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			ZiMinEntity.init();
+			XueWangEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(ZI_MIN.get(), ZiMinEntity.createAttributes().build());
+		event.put(XUE_WANG.get(), XueWangEntity.createAttributes().build());
 	}
 }

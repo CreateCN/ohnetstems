@@ -22,7 +22,7 @@ public class EmeraldPickaxeItem extends PickaxeItem {
 			}
 
 			public int getLevel() {
-				return 4;
+				return 3;
 			}
 
 			public int getEnchantmentValue() {

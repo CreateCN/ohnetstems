@@ -19,4 +19,5 @@ public class OhnetstemsModSounds {
 	public static final RegistryObject<SoundEvent> OHNETSTEMS_WOWOWO = REGISTRY.register("ohnetstems.wowowo", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("ohnetstems", "ohnetstems.wowowo")));
 	public static final RegistryObject<SoundEvent> OHNETSTEMS_WODESHENGAO = REGISTRY.register("ohnetstems.wodeshengao", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("ohnetstems", "ohnetstems.wodeshengao")));
 	public static final RegistryObject<SoundEvent> OHNETSTEMS_KAOMIANJING = REGISTRY.register("ohnetstems.kaomianjing", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("ohnetstems", "ohnetstems.kaomianjing")));
+	public static final RegistryObject<SoundEvent> MIXUETHEME = REGISTRY.register("mixuetheme", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("ohnetstems", "mixuetheme")));
 }

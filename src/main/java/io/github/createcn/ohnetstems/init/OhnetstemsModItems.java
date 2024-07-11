@@ -34,6 +34,7 @@ public class OhnetstemsModItems {
 	public static final RegistryObject<Item> EMERALD_PICKAXE = REGISTRY.register("emerald_pickaxe", () -> new EmeraldPickaxeItem());
 	public static final RegistryObject<Item> SHEN_GAO = REGISTRY.register("shen_gao", () -> new ShenGaoItem());
 	public static final RegistryObject<Item> KAO_MIAN_JIN = REGISTRY.register("kao_mian_jin", () -> new KaoMianJingItem());
+	public static final RegistryObject<Item> XUE_WANG_SPAWN_EGG = REGISTRY.register("xue_wang_spawn_egg", () -> new ForgeSpawnEggItem(OhnetstemsModEntities.XUE_WANG, -1, -3355444, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

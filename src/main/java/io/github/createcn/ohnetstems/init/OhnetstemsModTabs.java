@@ -29,6 +29,7 @@ public class OhnetstemsModTabs {
 				tabData.accept(OhnetstemsModItems.EMERALD_PICKAXE.get());
 				tabData.accept(OhnetstemsModItems.SHEN_GAO.get());
 				tabData.accept(OhnetstemsModItems.KAO_MIAN_JIN.get());
+				tabData.accept(OhnetstemsModItems.XUE_WANG_SPAWN_EGG.get());
 			})
 
 					.build());
