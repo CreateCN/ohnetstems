@@ -26,10 +26,13 @@ public class OhnetstemsModTabs {
 				tabData.accept(OhnetstemsModBlocks.HUA_JI_LEVEL.get().asItem());
 				tabData.accept(OhnetstemsModItems.ZI_MIN_SPAWN_EGG.get());
 				tabData.accept(OhnetstemsModItems.SHI_LI.get());
-				tabData.accept(OhnetstemsModItems.EMERALD_PICKAXE.get());
-				tabData.accept(OhnetstemsModItems.SHEN_GAO.get());
 				tabData.accept(OhnetstemsModItems.KAO_MIAN_JIN.get());
 				tabData.accept(OhnetstemsModItems.XUE_WANG_SPAWN_EGG.get());
+				tabData.accept(OhnetstemsModItems.EMERALD_PICKAXE.get());
+				tabData.accept(OhnetstemsModItems.SHEN_GAO.get());
+				tabData.accept(OhnetstemsModItems.HE_WU_RAN_SHUI_BUCKET.get());
+				tabData.accept(OhnetstemsModBlocks.STEM_WORKBENCH.get().asItem());
+				tabData.accept(OhnetstemsModItems.CYBER_ILLITERATE.get());
 			})
 
 					.build());

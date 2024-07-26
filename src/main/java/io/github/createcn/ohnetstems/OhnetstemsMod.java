@@ -28,9 +28,14 @@ import java.util.AbstractMap;
 
 import io.github.createcn.ohnetstems.init.OhnetstemsModTabs;
 import io.github.createcn.ohnetstems.init.OhnetstemsModSounds;
+import io.github.createcn.ohnetstems.init.OhnetstemsModMobEffects;
+import io.github.createcn.ohnetstems.init.OhnetstemsModMenus;
 import io.github.createcn.ohnetstems.init.OhnetstemsModItems;
+import io.github.createcn.ohnetstems.init.OhnetstemsModFluids;
+import io.github.createcn.ohnetstems.init.OhnetstemsModFluidTypes;
 import io.github.createcn.ohnetstems.init.OhnetstemsModEntities;
 import io.github.createcn.ohnetstems.init.OhnetstemsModBlocks;
+import io.github.createcn.ohnetstems.init.OhnetstemsModBlockEntities;
 
 @Mod("ohnetstems")
 public class OhnetstemsMod {
@@ -44,12 +49,17 @@ public class OhnetstemsMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		OhnetstemsModSounds.REGISTRY.register(bus);
 		OhnetstemsModBlocks.REGISTRY.register(bus);
-
+		OhnetstemsModBlockEntities.REGISTRY.register(bus);
 		OhnetstemsModItems.REGISTRY.register(bus);
 		OhnetstemsModEntities.REGISTRY.register(bus);
 
 		OhnetstemsModTabs.REGISTRY.register(bus);
 
+		OhnetstemsModMobEffects.REGISTRY.register(bus);
+
+		OhnetstemsModMenus.REGISTRY.register(bus);
+		OhnetstemsModFluids.REGISTRY.register(bus);
+		OhnetstemsModFluidTypes.REGISTRY.register(bus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "ohnetstems:block/stem_workbench"
+    }
+  }
+}

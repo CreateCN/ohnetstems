@@ -10,11 +10,11 @@ public class EmeraldPickaxeItem extends PickaxeItem {
 	public EmeraldPickaxeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 1000;
+				return 100;
 			}
 
 			public float getSpeed() {
-				return 6f;
+				return 9f;
 			}
 
 			public float getAttackDamageBonus() {
@@ -26,12 +26,12 @@ public class EmeraldPickaxeItem extends PickaxeItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 4;
+				return 15;
 			}
 
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 1, -3f, new Item.Properties());
+		}, 1, 6f, new Item.Properties());
 	}
 }

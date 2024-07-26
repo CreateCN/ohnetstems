@@ -18,7 +18,9 @@ import io.github.createcn.ohnetstems.item.ShenGaoItem;
 import io.github.createcn.ohnetstems.item.NetStemGemItem;
 import io.github.createcn.ohnetstems.item.KaoMianJingItem;
 import io.github.createcn.ohnetstems.item.HuaJiItem;
+import io.github.createcn.ohnetstems.item.HeWuRanShuiItem;
 import io.github.createcn.ohnetstems.item.EmeraldPickaxeItem;
+import io.github.createcn.ohnetstems.item.CyberIlliterateItem;
 import io.github.createcn.ohnetstems.OhnetstemsMod;
 
 public class OhnetstemsModItems {
@@ -31,10 +33,13 @@ public class OhnetstemsModItems {
 	public static final RegistryObject<Item> HUA_JI_LEVEL = block(OhnetstemsModBlocks.HUA_JI_LEVEL);
 	public static final RegistryObject<Item> ZI_MIN_SPAWN_EGG = REGISTRY.register("zi_min_spawn_egg", () -> new ForgeSpawnEggItem(OhnetstemsModEntities.ZI_MIN, -16737997, -13369549, new Item.Properties()));
 	public static final RegistryObject<Item> SHI_LI = REGISTRY.register("shi_li", () -> new ShiLiItem());
-	public static final RegistryObject<Item> EMERALD_PICKAXE = REGISTRY.register("emerald_pickaxe", () -> new EmeraldPickaxeItem());
-	public static final RegistryObject<Item> SHEN_GAO = REGISTRY.register("shen_gao", () -> new ShenGaoItem());
 	public static final RegistryObject<Item> KAO_MIAN_JIN = REGISTRY.register("kao_mian_jin", () -> new KaoMianJingItem());
 	public static final RegistryObject<Item> XUE_WANG_SPAWN_EGG = REGISTRY.register("xue_wang_spawn_egg", () -> new ForgeSpawnEggItem(OhnetstemsModEntities.XUE_WANG, -1, -3355444, new Item.Properties()));
+	public static final RegistryObject<Item> EMERALD_PICKAXE = REGISTRY.register("emerald_pickaxe", () -> new EmeraldPickaxeItem());
+	public static final RegistryObject<Item> SHEN_GAO = REGISTRY.register("shen_gao", () -> new ShenGaoItem());
+	public static final RegistryObject<Item> HE_WU_RAN_SHUI_BUCKET = REGISTRY.register("he_wu_ran_shui_bucket", () -> new HeWuRanShuiItem());
+	public static final RegistryObject<Item> STEM_WORKBENCH = block(OhnetstemsModBlocks.STEM_WORKBENCH);
+	public static final RegistryObject<Item> CYBER_ILLITERATE = REGISTRY.register("cyber_illiterate", () -> new CyberIlliterateItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ohnetstems:block/heeuranshui",
+    "up": "ohnetstems:block/stemsworkbench",
+    "north": "ohnetstems:block/stemsworkbenchside",
+    "east": "ohnetstems:block/stemsworkbenchside",
+    "south": "ohnetstems:block/stemsworkbenchside",
+    "west": "ohnetstems:block/stemsworkbenchside",
+    "particle": "ohnetstems:block/heeuranshui"
+  },
+  "render_type": "solid"
+}

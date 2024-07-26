@@ -16,11 +16,11 @@ public class ShenGaoItem extends PickaxeItem {
 	public ShenGaoItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 2;
+				return 79;
 			}
 
 			public float getSpeed() {
-				return 9f;
+				return 10f;
 			}
 
 			public float getAttackDamageBonus() {
@@ -32,13 +32,13 @@ public class ShenGaoItem extends PickaxeItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 5;
+				return 14;
 			}
 
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(OhnetstemsModItems.SHI_LI.get()));
 			}
-		}, 1, -2f, new Item.Properties());
+		}, 1, 1f, new Item.Properties());
 	}
 
 	@Override

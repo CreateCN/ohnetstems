@@ -1,0 +1,34 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "ohnetstems:shen_gao"
+    },
+    "title": {
+      "translate": "advancements.jing_dian_yong_liu_chuan.title"
+    },
+    "description": {
+      "translate": "advancements.jing_dian_yong_liu_chuan.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "jing_dian_yong_liu_chuan_0": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "ohnetstems:shen_gao"
+          ],
+          "durability": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      }
+    }
+  }
+}

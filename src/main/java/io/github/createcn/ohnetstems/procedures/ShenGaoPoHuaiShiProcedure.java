@@ -33,9 +33,9 @@ public class ShenGaoPoHuaiShiProcedure {
 		if (itemstack.getItem() == OhnetstemsModItems.SHEN_GAO.get()) {
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
-					_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ohnetstems:ohnetstems.wodeshengao")), SoundSource.MUSIC, 1, 1);
+					_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ohnetstems:ohnetstems.wodeshengao")), SoundSource.NEUTRAL, 1, 1);
 				} else {
-					_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ohnetstems:ohnetstems.wodeshengao")), SoundSource.MUSIC, 1, 1, false);
+					_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ohnetstems:ohnetstems.wodeshengao")), SoundSource.NEUTRAL, 1, 1, false);
 				}
 			}
 		}
